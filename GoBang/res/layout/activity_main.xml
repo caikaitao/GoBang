@@ -1,0 +1,39 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" 
+    android:background="@drawable/mainbg"
+    >
+	<LinearLayout
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_centerHorizontal="true"
+	    android:layout_centerVertical="true"
+	    android:layout_marginLeft="50dp"
+	    android:orientation="vertical" >
+
+	    <Button
+	        android:id="@+id/offline_button"
+	        style="@style/welcome_button"
+	        android:layout_marginBottom="5dp"
+	        android:text="单        机" 
+	        />
+
+	    <Button
+	        android:id="@+id/online_button"
+	        style="@style/welcome_button"
+	        android:layout_marginBottom="5dp"
+	        android:text="蓝牙联机"
+	         />
+
+	    <Button
+	        android:id="@+id/about"
+	        style="@style/welcome_button"
+	        android:layout_marginBottom="5dp"
+	        android:text="关         于" />
+
+	    <Button
+	        android:id="@+id/exit"
+	        style="@style/welcome_button"
+	        android:text="退        出" />
+	</LinearLayout>
+</RelativeLayout>

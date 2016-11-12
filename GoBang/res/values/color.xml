@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+   <!--象牙色 --><color name="ivory">#FFFFF0</color>	
+    <!--黄褐色 --><color name="khaki">#82F0E68C</color>
+</resources>
